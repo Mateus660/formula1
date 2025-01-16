@@ -1,13 +1,14 @@
 import React from 'react'
+import verstappen from './img/verstappen sem fundo.jpg.png'
 
 function Site () {
   return (
     <div id='container'>
-      <h1>Max verstappen</h1>
       <header id='imagem'></header>
       
       <div id='verstappen'>
-        <p>Max Emilian Verstappen é um automobilista neerlandês. Ele é piloto de Fórmula 1 desde 2015, tendo feito sua estreia pela equipe Toro Rosso. Foi quatro vezes campeão da Fórmula 1 em 2021, 2022, 2023 e 2024 e terminou em terceiro lugar em 2019 e 2020 com a Red Bull Racing, equipe pela qual corre desde 2016</p>
+        <img src={verstappen} alt="Imagem de max verstappen" title='max verstappen'/>
+        <p>Max Verstappen é um piloto de Fórmula 1 amplamente reconhecido por sua habilidade e determinação. Nascido em 30 de setembro de 1997, na cidade de Hasselt, Bélgica, ele compete sob a bandeira dos Países Baixos, seguindo as raízes de sua família holandesa. Desde cedo, Max demonstrou um talento extraordinário para o automobilismo, influenciado pelo pai, Jos Verstappen, ex-piloto de Fórmula 1, e pela mãe, Sophie Kumpen, uma competidora de kart de alto nível. Sua trajetória no esporte começou no kart, onde acumulou títulos e consolidou uma base sólida que o levaria à elite do automobilismo mundial.</p>
       </div>
     </div>
   )
