@@ -16,17 +16,23 @@ function Site () {
       </div>
 
       <div id='titulos'>
-        <h1>Primeiro título</h1>
-      <p>2021: Venceu seu primeiro título em uma temporada altamente disputada contra Lewis Hamilton, com a decisão ocorrendo na última volta do GP de Abu Dhabi.</p>
-        <img src={vervshaml} alt="Imagem Max"/>
+        <div className='tit'>
+          <h1>Primeiro título</h1>
+                <p>2021: Venceu seu primeiro título em uma temporada altamente disputada contra Lewis Hamilton, com a decisão ocorrendo na última volta do GP de Abu Dhabi.</p>
+          <img src={vervshaml} alt="Imagem Max"/>
+        </div>
 
-        <h1>Segundo título</h1>
-        <p>2022: Dominou a temporada com vitórias consistentes e um desempenho dominante, garantindo o título com várias corridas de antecedência.</p>
-        <img src= {versegundotitulo} alt="max verstappen" srcset="segundo titulo" />
+        <div className='tit'>
+          <h1>Segundo título</h1>
+          <p>2022: Dominou a temporada com vitórias consistentes e um desempenho dominante, garantindo o título com várias corridas de antecedência.</p>
+          <img src= {versegundotitulo} alt="max verstappen" srcset="segundo titulo" />
+        </div>
 
-        <h1>Terceiro título</h1>
-        <p>2023: Continuou sua supremacia, mostrando consistência e garantindo mais um título com uma performance quase impecável.</p>
-        <img src= {verterceirotitulo} alt="verstappen terceiro titulo" srcset="terceiro titulo" />
+        <div  className='tit'>
+          <h1>Terceiro título</h1>
+          <p>2023: Continuou sua supremacia, mostrando consistência e garantindo mais um título com uma performance quase impecável.</p>
+          <img src= {verterceirotitulo} alt="verstappen terceiro titulo" srcset="terceiro titulo" />
+        </div>
       </div>
     </div>
   )
