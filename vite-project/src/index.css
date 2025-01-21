@@ -6,7 +6,6 @@
 }
 
 * {
-    color: black;
     text-wrap: wrap;
 }
 
@@ -14,7 +13,6 @@ body{
     animation: fadeIn 2s;
     margin: 0;
     padding: 0;
-    color: black;
     background-image: linear-gradient(180deg,#F2940A, #FAD50A);
 
 }
@@ -36,21 +34,29 @@ h1 {
 }
 
 #verstappen {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    display: flex; /* Alinha os itens em uma linha horizontal */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaçamento entre os elementos */
     padding: 18px;
-    display: flex;
-    align-items: center;
-    font-size: 26px;
-    gap: 24px;
-    animation:slideInFromLeft 2s ease-out forwards;
     box-shadow: 2px 2px 10px black;
     width: 90%;
     margin: auto;
     background-color: white;
     margin-top: 10px;
-    border-radius: 10px;    
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+        
 }
+
+#verstappen img {
+    max-width: 200px; /* Define uma largura máxima */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona bordas arredondadas, opcional */
+}
+
+
+
 
 #imagem {
     filter: drop-shadow(6px 6px  6px 8px solid white);
@@ -85,12 +91,50 @@ h1 {
     font-style: oblique;
     font-size: 20px;
     background-color: white; /* Exemplo de fundo para contraste */
-    color: black; /* Texto legível */
+}  
+
+#redbull {
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
+#redbull > p {
+    font-size: large;
+}
+
+#rivais { 
+    margin-top: 10px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%; /* Limita a largura da imagem à largura da div */
+    max-height: 100%; /* Limita a altura da imagem à altura da div */
+    object-fit: contain; /* Mantém as proporções da imagem */
+    margin: auto;
+}
+
+
 .tit:hover {
-    background-color: orange;
-    box-shadow: (2px, 2px, 2px, white);
+    color: white;
+    background-color: black;
+    padding: 10px;
+    box-shadow: (10px, 10px, 10px, white);
+    border: 6px solid white;
 }
 
 

@@ -4,6 +4,7 @@ import verst from "./img/verstappen-14.jpg"
 import vervshaml from "./img/verstappenvshamtilton.jpg"
 import versegundotitulo from "./img/verstappensegundotitulo.jpg"
 import verterceirotitulo from "./img/verstappenterceirotitulo.jpg"
+import carroredbull from "./img/carroredbull.jpg"
 
 function Site () {
   return (
@@ -34,6 +35,25 @@ function Site () {
           <img src= {verterceirotitulo} alt="verstappen terceiro titulo" srcset="terceiro titulo" />
         </div>
       </div>
+
+      <div id="redbull">
+        <h1>Seu carro atual</h1>
+        <p>O carro atual de Max Verstappen na Fórmula 1 é o Red Bull RB19, projetado pela equipe técnica da Red Bull Racing liderada pelo renomado engenheiro Adrian Newey. Este modelo é uma evolução do RB18, que dominou a temporada de 2022, mas traz aprimoramentos significativos que o tornam ainda mais eficiente e competitivo.
+
+        O RB19 é equipado com o motor Honda RBPT, fruto da parceria entre a Red Bull Powertrains e a Honda. Este motor híbrido         combina potência e eficiência, proporcionando desempenho impressionante tanto em retas quanto em curvas. Ele é projetado         para atender às regulamentações técnicas da FIA, maximizando o desempenho dentro dos limites estabelecidos.
+
+        A aerodinâmica do RB19 é um dos pontos de destaque, com um design que prioriza o fluxo de ar e a redução de arrasto. A         asa dianteira e o difusor traseiro foram ajustados para garantir estabilidade em altas velocidades e maior tração nas         curvas. A suspensão ajustável permite que o carro se adapte a diferentes tipos de pistas, dando a Verstappen uma         vantagem significativa em diversas condições de corrida.
+
+        Além disso, o RB19 é conhecido por sua confiabilidade. Durante a temporada, o carro apresentou poucas falhas mecânicas,         permitindo a Verstappen estabelecer uma campanha consistente e dominante. A combinação de um piloto habilidoso como         Verstappen e um carro tecnicamente avançado como o RB19 faz desta parceria uma das mais dominantes na história recente         da Fórmula 1.
+
+        Com o RB19, Max Verstappen continua a escrever seu legado, consolidando-se como um dos maiores pilotos da história do         esporte. O carro é um verdadeiro símbolo da excelência técnica e da busca incessante por vitórias.</p>
+
+        <img src={carroredbull} alt="carrod a red bull" srcset="carro do mas verstappen" />
+      </div>
+
+      <div id='rivais'>
+          <h1>Principais rivais</h1>  
+      </div>      
     </div>
   )
 }
