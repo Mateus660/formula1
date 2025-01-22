@@ -5,6 +5,8 @@ import vervshaml from "./img/verstappenvshamtilton.jpg"
 import versegundotitulo from "./img/verstappensegundotitulo.jpg"
 import verterceirotitulo from "./img/verstappenterceirotitulo.jpg"
 import carroredbull from "./img/carroredbull.jpg"
+import hamiltom from "./img/hamiltomrival.jpg"
+
 
 function Site () {
   return (
@@ -20,7 +22,7 @@ function Site () {
         <div className='tit'>
           <h1>Primeiro título</h1>
                 <p>2021: Venceu seu primeiro título em uma temporada altamente disputada contra Lewis Hamilton, com a decisão ocorrendo na última volta do GP de Abu Dhabi.</p>
-          <img src={vervshaml} alt="Imagem Max"/>
+          <img src={vervshaml} alt="Imagem Max" id='vervshal'/>
         </div>
 
         <div className='tit'>
@@ -50,10 +52,6 @@ function Site () {
 
         <img src={carroredbull} alt="carrod a red bull" srcset="carro do mas verstappen" />
       </div>
-
-      <div id='rivais'>
-          <h1>Principais rivais</h1>  
-      </div>      
     </div>
   )
 }
